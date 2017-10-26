@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="unicourse" default="dist" basedir=".">
+
+	<description>This script file creates Content package</description>
+	
+	<!-- set global properties for this build -->
+	<property name="coursename" value="halliday8019"/>
+	<property name="bin" location="bin"/>
+	<property name="src" location="src"/>
+	<property name="out" location="out"/>
+	<property name="log" location="log"/>
+	<property name="dist" location="dist"/>
+	<property name="saxon_home" location="bin/saxonhe9-4-0-1J"/>
+	
+	<path id="saxon.path">
+		<pathelement location="${saxon_home}/saxon9he.jar"/>
+		<!--<pathelement location="${saxon_home}/saxon9-sql.jar"/>-->
+	</path>
+	<pathconvert  property="saxon.path.crossplatform" refid="saxon.path"/>
+	
+	
+	<target name="init" description="Create the time stamp">
+		<tstamp/>
+	</target>
+	
+	<target name="dist" depends="init" description="create folders for build process">
+		<mkdir dir="${log}"/>
+		<mkdir dir="${out}"/>
+		<mkdir dir="${dist}"/>
+	</target>
+	
+	
+	<target name="transformation">
+		<!-- in_xml -->
+		<!-- in_xsl -->
+		<!-- in_result -->
+		<!-- in_log -->
+		
+		<!-- imsmanifest -->
+		<exec dir="${src}" executable="java.exe" output="${log}/${in_log}">
+			<arg line="-cp ${saxon.path.crossplatform} net.sf.saxon.Transform -t"/>
+			<!-- source -->
+			<arg line=" -s:${in_xml}"/>
+			<!-- styles -->
+			<arg line=" -xsl:${in_xsl}"/>
+			<!-- result -->
+			<arg line=" -o:${out}/${in_result}"/>
+			<!-- params -->
+			<arg line=" ${in_params}"/>
+		</exec>
+	</target>	
+	
+	<!-- /////////////// external calls /////////////// -->
+	
+	<target name="make-out" depends="dist">
+	
+		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
+		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+
+		<!--
+		<antcall target="transformation">
+			<param name="in_xml" value="qtypes/qtypes.xml"/>
+			<param name="in_xsl" value="qtypes/qtypes.xsl"/>
+			<param name="in_result" value="qtypes-out.html"/>
+			<param name="in_log" value="qtypes.log"/>
+		</antcall>
+		-->
+			
+		<antcall target="transformation">
+			<param name="in_xml" value="prod0000011111.xml"/>
+			<param name="in_xsl" value="ref-builder.xsl"/>
+			<param name="in_result" value="prod0000011111.json"/>
+			<param name="in_log" value="ref-builder.log"/>
+			<param name="in_params" value="preffix=qid" />
+		</antcall>
+	
+	
+	
+	</target>
+	
+	
+	<!-- delete folders structure -->
+	<target name="clean-out" description="delete 'out' directory">
+		<delete dir="${log}"/>
+		<delete dir="${out}"/>
+		<delete dir="${dist}"/>
+	</target>
+	
+</project>
