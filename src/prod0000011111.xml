@@ -231,7 +231,7 @@
             <title prefix="Ch 3">NGCP HP:Summery Content Markup Cases</title>
             
             <item identifier="sec0301" type="section">
-                <title prefix="2-1">Summary with MathML Equations</title>
+                <title prefix="3-1">HP:Summary with MathML Equations</title>
                 
                 <item identifier="res0301hpc" type="homeComposite" identifierref="res04hpc_markup">
                     <title>Homepage Composite</title>
@@ -243,20 +243,6 @@
                 <item identifier="res0301t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0301t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0301t02ma02" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t03ma01" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t03ma02" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t04ma01" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t04ma02" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t05ma01" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t05ma02" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t06ma01" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t06ma02" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t07ma01" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t07ma02" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t08ma01" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t08ma02" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t09ma01" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t09ma02" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
             
@@ -358,6 +344,23 @@
                         <li>Objective B: sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
                         <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
                     </ul>
+					<p>This content snoppet contains inline math: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+                        <mrow>
+                            <mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msqrt>
+                                <mrow>
+                                    <msup>
+                                        <mi>a</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                    <mo>+</mo><msup>
+                                        <mi>b</mi>
+                                        <mn>2</mn>
+                                    </msup>
+                                </mrow>
+                            </msqrt>
+                        </mrow>
+                    </math>
+					with some additional text...</p>
                 </section>
                 <section class="js-secSummary">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
@@ -390,7 +393,7 @@
                     </p>
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    <p>This content snoppet conteins inline math: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
+                    <p>This content snoppet contains inline math: <math xmlns="http://www.w3.org/1998/Math/MathML" display="inline">
                         <mrow>
                             <mi>x</mi><mo>+</mo><mn>1</mn><mo>=</mo><msqrt>
                                 <mrow>
@@ -405,8 +408,7 @@
                                 </mrow>
                             </msqrt>
                         </mrow>
-                    </math>
-                    </p>
+                    </math>with some additional text...</p>
                 </section>
             </article>
         </resource>        
