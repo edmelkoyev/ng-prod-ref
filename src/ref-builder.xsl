@@ -248,12 +248,12 @@
     
     <xsl:template name="getMaResourceThumbnailUrl">
         <xsl:choose>
-            <xsl:when test="@tbumbnail='no'">no thumbnail</xsl:when>
-            <xsl:when test="starts-with(@tbumbnail, 'auto')">
+            <xsl:when test="@thumbnail='no'">no thumbnail</xsl:when>
+            <xsl:when test="starts-with(@thumbnail, 'auto')">
                 <xsl:variable name="iSize">
                     <xsl:choose>
-                        <xsl:when test="@tbumbnail='auto_lg'">400x300</xsl:when>
-                        <xsl:when test="@tbumbnail='auto_sm'">80x60</xsl:when>
+                        <xsl:when test="@thumbnail='auto_lg'">400x300</xsl:when>
+                        <xsl:when test="@thumbnail='auto_sm'">80x60</xsl:when>
                         <xsl:otherwise>264x198</xsl:otherwise>
                     </xsl:choose>
                 </xsl:variable>
@@ -266,7 +266,7 @@
                 
                 <xsl:value-of select="concat('https://via.placeholder.com/', $iSize, '/', $mColors, '?text=', $mType)"/>
             </xsl:when>
-            <xsl:otherwise><xsl:value-of select="@tbumbnail"/></xsl:otherwise>
+            <xsl:otherwise><xsl:value-of select="@thumbnail"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
     

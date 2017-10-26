@@ -31,25 +31,25 @@
                 <item identifier="res0101epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0101t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="1"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="2"><title counter="3" mode="auto"/></item>
-                <item identifier="res0101t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t02ma02" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t03ma01" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t03ma02" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t04ma01" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t04ma02" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t05ma01" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t05ma02" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t06ma01" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t06ma02" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t07ma01" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t07ma02" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t08ma01" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t08ma02" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t09ma01" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t09ma02" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto"/></item>
+                <item identifier="res0101t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t07ma02" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t08ma02" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             <item identifier="sec0102" type="section">
                 <title prefix="1-2">All Media Assets, singular, 9 types</title>
@@ -60,39 +60,39 @@
                 <item identifier="res0102epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0102t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t03ma01" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t04ma01" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t05ma01" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t06ma01" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t07ma01" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t08ma01" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t09ma01" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
             </item>
             <item identifier="sec0103" type="section">
                 <title prefix="1-3">Home Page, LO+, SUM+, MA(1)</title>
                 <item identifier="res0103hpc" type="homeComposite" identifierref="res00hpc_dummy"><title>Homepage Composite</title></item>
                 <item identifier="res0103epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843"><title mode="auto"/></item>
-                <item identifier="res0103t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0103t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
             </item>
             <item identifier="sec0104" type="section">
                 <title prefix="1-4">Home Page, LO-, SUM+, MA(1)</title>
                 <item identifier="res0104hpc" type="homeComposite" identifierref="res01hpc_dummy"><title>Homepage Composite</title></item>
                 <item identifier="res0104epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843"><title mode="auto"/></item>
-                <item identifier="res0104t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0104t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
             </item>
             <item identifier="sec0105" type="section">
                 <title prefix="1-5">Home Page, LO+, SUM-, MA(1)</title>
                 <item identifier="res0105hpc" type="homeComposite" identifierref="res02hpc_dummy"><title>Homepage Composite</title></item>
                 <item identifier="res0105epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843"><title mode="auto"/></item>
-                <item identifier="res0105t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0105t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
             </item>
             <item identifier="sec0106" type="section">
                 <title prefix="1-6">Home Page, LO-, SUM-, MA(1)</title>
                 <item identifier="res0106hpc" type="homeComposite" identifierref="res03hpc_dummy"><title>Homepage Composite</title></item>
                 <item identifier="res0106epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843"><title mode="auto"/></item>
-                <item identifier="res0106t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0106t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
             </item>
             <item identifier="sec0107" type="section">
                 <title prefix="1-7">Home Page, LO-, SUM-, MA-</title>
@@ -101,9 +101,9 @@
             </item>
             <item identifier="chapResCollection01" type="chapResCollection">
                 <title prefix="Ch 1">Chapter Level Resources</title>
-                <item identifier="chapres01t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto_chap"/></item>
-                <item identifier="chapres01t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
-                <item identifier="chapres01t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
+                <item identifier="chapres01t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_chap"/></item>
+                <item identifier="chapres01t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
+                <item identifier="chapres01t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
             </item>
         </item>
         
@@ -120,9 +120,8 @@
                 <item identifier="res0201epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0201t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" importance="1"><title counter="1" mode="auto"/></item>
-                <item identifier="res0201t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0201t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" ><title counter="3" mode="auto"/></item>
+                <item identifier="res0201t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="1" mode="auto"/></item>
+                <item identifier="res0201t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="2" mode="auto"/></item>
             </item>
             
             <item identifier="sec0202" type="section">
@@ -134,19 +133,19 @@
                 <item identifier="res0202epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0202t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="no"><title counter="1">One Resource without pic(checking substitution to logo).</title></item>
-                <item identifier="res0202t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="2">There are many beautiful cities and towns in the world. I would like to visit some of them, to see with my own eyes what I have read or heard about.</title></item>
-                <item identifier="res0202t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="3">Opposite the post office there is a modern hotel. If you turn to the left, you can see a underground.</title></item>
-                <item identifier="res0202t01ma04" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="4">My city is old and modern at the same time. It is old because it was founded in the 11th century. At that time its streets were narrow, dark and dirty. Now my city looks modern because of its architecture. Almost all the buildings were built after the war. The streets and avenues are wide and clean.</title></item>
-                <item identifier="res0202t01ma05" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="5">The Big Four</title></item>
-                <item identifier="res0202t01ma06" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="6">Mark Twain, Adventures of Huckleberry Finn (1884)</title></item>
-                <item identifier="res0202t01ma07" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="7">Tolkien John Ronald Reuel, John Ronald Reuel Tolkien Smith of Wootton Major (1967)</title></item>
-                <item identifier="res0202t01ma08" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="8">hexamethylenetriperoxidediaminpolychlorid (solid word)</title></item>
-                <item identifier="res0202t01ma09" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
-                <item identifier="res0202t01ma10" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
-                <item identifier="res0202t01ma11" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="10"></title></item>
-                <item identifier="res0202t01ma12" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto_sm"><title counter="11">Resource with small picture(checking stretching)</title></item>
-                <item identifier="res0202t01ma13" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto_lg"><title counter="12">Resource with big picture(checking stretching)</title></item>
+                <item identifier="res0202t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="1">One Resource without pic(checking substitution to logo).</title></item>
+                <item identifier="res0202t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="2">There are many beautiful cities and towns in the world. I would like to visit some of them, to see with my own eyes what I have read or heard about.</title></item>
+                <item identifier="res0202t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="3">Opposite the post office there is a modern hotel. If you turn to the left, you can see a underground.</title></item>
+                <item identifier="res0202t01ma04" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="4">My city is old and modern at the same time. It is old because it was founded in the 11th century. At that time its streets were narrow, dark and dirty. Now my city looks modern because of its architecture. Almost all the buildings were built after the war. The streets and avenues are wide and clean.</title></item>
+                <item identifier="res0202t01ma05" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="5">The Big Four</title></item>
+                <item identifier="res0202t01ma06" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="6">Mark Twain, Adventures of Huckleberry Finn (1884)</title></item>
+                <item identifier="res0202t01ma07" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="7">Tolkien John Ronald Reuel, John Ronald Reuel Tolkien Smith of Wootton Major (1967)</title></item>
+                <item identifier="res0202t01ma08" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="8">hexamethylenetriperoxidediaminpolychlorid (solid word)</title></item>
+                <item identifier="res0202t01ma09" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
+                <item identifier="res0202t01ma10" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
+                <item identifier="res0202t01ma11" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="10"></title></item>
+                <item identifier="res0202t01ma12" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_sm"><title counter="11">Resource with small picture(checking stretching)</title></item>
+                <item identifier="res0202t01ma13" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_lg"><title counter="12">Resource with big picture(checking stretching)</title></item>
             </item>
             
             <item identifier="sec0203" type="section">
@@ -158,24 +157,24 @@
                 <item identifier="res0203epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0203t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t02ma02" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t03ma01" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t03ma02" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t04ma01" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t04ma02" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t05ma01" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t05ma02" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t06ma01" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t06ma02" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t07ma01" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t07ma02" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t08ma01" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t08ma02" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t09ma01" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t09ma02" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t07ma02" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t08ma02" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0203t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0203t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
             <item identifier="sec0204" type="section">
@@ -187,24 +186,24 @@
                 <item identifier="res0204epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0204t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t02ma02" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t03ma01" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t03ma02" type="mediaAsset" mType="3" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t04ma01" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t04ma02" type="mediaAsset" mType="4" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t05ma01" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t05ma02" type="mediaAsset" mType="5" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t06ma01" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t06ma02" type="mediaAsset" mType="6" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t07ma01" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t07ma02" type="mediaAsset" mType="7" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t08ma01" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t08ma02" type="mediaAsset" mType="8" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t09ma01" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t09ma02" type="mediaAsset" mType="9" bRef="bkt01" tbumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t07ma02" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t08ma02" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0204t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0204t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
             </item>
             
             <item identifier="sec0205" type="section">
@@ -220,9 +219,9 @@
             
             <item identifier="chapResCollection02" type="chapResCollection">
                 <title prefix="Ch 2">Chapter Level Resources</title>
-                <item identifier="chapres02t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto_chap"/></item>
-                <item identifier="chapres02t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
-                <item identifier="chapres02t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
+                <item identifier="chapres02t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_chap"/></item>
+                <item identifier="chapres02t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
+                <item identifier="chapres02t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
             </item>
         </item>
         
@@ -239,27 +238,27 @@
                 <item identifier="res0203epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0301t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0301t02ma01" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0301t02ma02" type="mediaAsset" mType="2" bRef="bkt01" tbumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0301t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0301t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0301t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0301t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
             
             <item identifier="chapResCollection03" type="chapResCollection">
                 <title prefix="Ch 3">Chapter Level Resources</title>
-                <item identifier="chapres03t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto_chap"/></item>
-                <item identifier="chapres03t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
-                <item identifier="chapres03t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
+                <item identifier="chapres03t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_chap"/></item>
+                <item identifier="chapres03t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
+                <item identifier="chapres03t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
             </item>
         </item>
         
         <!-- PRODUCT LEVEL RESOURCES -->
         <item identifier="prodResCollection00" type="prodResCollection">
             <title prefix="Prod">Product Level Resouces</title>
-            <item identifier="prodres01t01ma01" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto"><title counter="1" mode="auto_prod"/></item>
-            <item identifier="prodres01t01ma02" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="1"><title counter="2" mode="auto_prod"/></item>
-            <item identifier="prodres01t01ma03" type="mediaAsset" mType="1" bRef="bkt01" tbumbnail="auto" audience="2"><title counter="3" mode="auto_prod"/></item>
+            <item identifier="prodres01t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_prod"/></item>
+            <item identifier="prodres01t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_prod"/></item>
+            <item identifier="prodres01t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_prod"/></item>
         </item>
     </organization>
     
