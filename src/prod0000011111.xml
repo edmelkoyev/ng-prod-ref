@@ -230,9 +230,9 @@
             <title prefix="Ch 3">NGCP HP:Summery Content Markup Cases</title>
             
             <item identifier="sec0301" type="section">
-                <title prefix="3-1">HP:Summary with MathML Equations</title>
+                <title prefix="3-1">HP: Summary with MathML Equations</title>
                 
-                <item identifier="res0301hpc" type="homeComposite" identifierref="res04hpc_markup">
+                <item identifier="res0301hpc" type="homeComposite" identifierref="res04hpc_mathml">
                     <title>Homepage Composite</title>
                 </item>
                 <item identifier="res0203epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
@@ -242,6 +242,21 @@
                 <item identifier="res0301t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0301t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0301t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+            </item>
+            
+            <item identifier="sec0302" type="section">
+                <title prefix="3-2">HP: Summary with Images</title>
+                
+                <item identifier="res0302hpc" type="homeComposite" identifierref="res05hpc_img">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0302epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
+                    <title mode="auto"/>
+                </item>
+                <item identifier="res0302t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0302t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0302t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0302t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
             
@@ -332,10 +347,10 @@
                 <!-- SUM- -->
             </article>
         </resource>
-        <resource identifier="res04hpc_markup">
+        <resource identifier="res04hpc_mathml">
             <article class="js-sectionHomeComosite" xmlns="http://www.w3.org/1999/xhtml">
                 <header>
-                    <h1>Dummy Homepage Composite, SUMMARY Markup</h1>
+                    <h1>Dummy Homepage Composite, MathML</h1>
                 </header>
                 <section class="js-secIntro">
                     <ul>
@@ -408,6 +423,32 @@
                             </msqrt>
                         </mrow>
                     </math>with some additional text...</p>
+                </section>
+            </article>
+        </resource>
+        <resource identifier="res05hpc_img">
+            <article class="js-sectionHomeComosite" xmlns="http://www.w3.org/1999/xhtml">
+                <header>
+                    <h1>Dummy Homepage Composite, Images</h1>
+                </header>
+                <section class="js-secIntro">
+                    <ul>
+                        <li>Objective A: lorem ipsum dolor sit amet, consectetuer <img src="images/image03.png" alt="packman"/> adipiscing elit</li>
+                        <li>Objective B: sed diam nonummy nibh <img src="images/image03.png" alt="packman"/> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+                        <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam <img src="images/image03.png" alt="packman"/> erat volutpat</li>
+                    </ul>
+                    <fiure><img src="images/image01.png" alt="Red Ship"/></fiure>
+                </section>
+                <section class="js-secSummary">
+                    <p>Lorem ipsum dolor sit amet, consectetuer <img src="images/image03.png" alt="packman"/> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    <fiure><img src="images/image01.png" alt="Red Ship"/></fiure>
+                    <ol>
+                        <li>Duis <img src="images/image03.png" alt="packman"/>autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
+                        <li>vel illum dolore eu <img src="images/image03.png" alt="packman"/> feugiat nulla facilisis at vero eros et</li>
+                        <li>accumsan et iusto <img src="images/image03.png" alt="packman"/> odio dignissim qui blandit praesent luptatum zzril</li>
+                    </ol>
+                    <fiure><img src="images/image02.png" alt="White Ship"/></fiure>
                 </section>
             </article>
         </resource>        

@@ -56,6 +56,12 @@
 	
 		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
 		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+		
+		<copy todir="${out}/data/images">
+				<fileset dir="${src}/images">
+					<exclude name="**/*.java"/>
+				</fileset>
+		</copy>
 
 		<!--
 		<antcall target="transformation">
