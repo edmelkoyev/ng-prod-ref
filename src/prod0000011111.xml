@@ -32,7 +32,7 @@
                     <title mode="auto"/>
                 </item>
                 <item identifier="res0101t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no" audience="1"><title counter="2" mode="auto"/></item>
                 <item identifier="res0101t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto"/></item>
                 <item identifier="res0101t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0101t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
