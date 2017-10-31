@@ -133,19 +133,19 @@
                 <item identifier="res0202epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0202t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="1">One Resource without pic(checking substitution to logo).</title></item>
-                <item identifier="res0202t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="2">There are many beautiful cities and towns in the world. I would like to visit some of them, to see with my own eyes what I have read or heard about.</title></item>
-                <item identifier="res0202t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="3">Opposite the post office there is a modern hotel. If you turn to the left, you can see a underground.</title></item>
-                <item identifier="res0202t01ma04" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="4">My city is old and modern at the same time. It is old because it was founded in the 11th century. At that time its streets were narrow, dark and dirty. Now my city looks modern because of its architecture. Almost all the buildings were built after the war. The streets and avenues are wide and clean.</title></item>
-                <item identifier="res0202t01ma05" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="5">The Big Four</title></item>
-                <item identifier="res0202t01ma06" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="6">Mark Twain, Adventures of Huckleberry Finn (1884)</title></item>
-                <item identifier="res0202t01ma07" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="7">Tolkien John Ronald Reuel, John Ronald Reuel Tolkien Smith of Wootton Major (1967)</title></item>
-                <item identifier="res0202t01ma08" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="8">hexamethylenetriperoxidediaminpolychlorid (solid word)</title></item>
-                <item identifier="res0202t01ma09" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
-                <item identifier="res0202t01ma10" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
-                <item identifier="res0202t01ma11" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="10"></title></item>
-                <item identifier="res0202t01ma12" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_sm"><title counter="11">Resource with small picture(checking stretching)</title></item>
-                <item identifier="res0202t01ma13" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_lg"><title counter="12">Resource with big picture(checking stretching)</title></item>
+                <item identifier="res0202t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"   importance="1"><title counter="1">One Resource without pic(checking substitution to logo).</title></item>
+                <item identifier="res0202t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="2">There are many beautiful cities and towns in the world. I would like to visit some of them, to see with my own eyes what I have read or heard about.</title></item>
+                <item identifier="res0202t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="3">Opposite the post office there is a modern hotel. If you turn to the left, you can see a underground.</title></item>
+                <item identifier="res0202t01ma04" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="4">My city is old and modern at the same time. It is old because it was founded in the 11th century. At that time its streets were narrow, dark and dirty. Now my city looks modern because of its architecture. Almost all the buildings were built after the war. The streets and avenues are wide and clean.</title></item>
+                <item identifier="res0202t01ma05" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="5">The Big Four</title></item>
+                <item identifier="res0202t01ma06" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="6">Mark Twain, Adventures of Huckleberry Finn (1884)</title></item>
+                <item identifier="res0202t01ma07" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="7">Tolkien John Ronald Reuel, John Ronald Reuel Tolkien Smith of Wootton Major (1967)</title></item>
+                <item identifier="res0202t01ma08" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="8">hexamethylenetriperoxidediaminpolychlorid (solid word)</title></item>
+                <item identifier="res0202t01ma09" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
+                <item identifier="res0202t01ma10" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
+                <item identifier="res0202t01ma11" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="10"></title></item>
+                <item identifier="res0202t01ma12" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_sm" importance="2"><title counter="11">Resource with small picture(checking stretching)</title></item>
+                <item identifier="res0202t01ma13" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_lg" importance="1"><title counter="12">Resource with big picture(checking stretching)</title></item>
             </item>
             
             <item identifier="sec0203" type="section">
@@ -207,7 +207,7 @@
             </item>
             
             <item identifier="sec0205" type="section">
-                <title prefix="2-5">No Resouces</title>
+                <title prefix="2-5">No Resouces, eText+</title>
                 
                 <item identifier="res0205hpc" type="homeComposite" identifierref="res00hpc_dummy">
                     <title>Homepage Composite</title>
@@ -216,6 +216,50 @@
                     <title mode="auto"/>
                 </item>                
             </item>
+            
+            <item identifier="sec0206" type="section">
+                <title prefix="2-6">No Resouces, eText-</title>
+                <item identifier="res0206hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+            </item>
+            
+            <item identifier="sec0207" type="section">
+                <title prefix="2-7">Primary-, Secondary+, eText-</title>
+                
+                <item identifier="res0207hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0207t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t07ma02" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t08ma02" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0207t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
+                <item identifier="res0207t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
+            </item>
+            
+            <item identifier="sec0208" type="section">
+                <title prefix="2-8">1 Primary resource, 1 Secondary resource, eText-</title>
+                
+                <item identifier="res0208hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0208t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="1" mode="auto"/></item>
+                <item identifier="res0208t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="2" mode="auto"/></item>
+            </item>
+            
             
             <item identifier="chapResCollection02" type="chapResCollection">
                 <title prefix="Ch 2">Chapter Level Resources</title>
@@ -259,6 +303,20 @@
                 <item identifier="res0302t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
+            <item identifier="sec0303" type="section">
+                <title prefix="3-3">HP: Summary with Table</title>
+                
+                <item identifier="res0303hpc" type="homeComposite" identifierref="res05hpc_tbl01">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0303epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
+                    <title mode="auto"/>
+                </item>
+                <item identifier="res0303t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0303t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0303t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0303t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+            </item>
             
             <item identifier="chapResCollection03" type="chapResCollection">
                 <title prefix="Ch 3">Chapter Level Resources</title>
@@ -452,5 +510,57 @@
                 </section>
             </article>
         </resource>        
+        <resource identifier="res05hpc_tbl01">
+            <article class="js-sectionHomeComosite" xmlns="http://www.w3.org/1999/xhtml">
+                <header>
+                    <h1>Dummy Homepage Composite, Table 01</h1>
+                </header>
+                <section class="js-secIntro">
+                    <ul>
+                        <li>Objective A: lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+                        <li>Objective B: sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+                        <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+                    </ul>
+                </section>
+                <section class="js-secSummary">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    
+                    <div class="tbl-center">
+                        <table>
+                            <caption>This is table caption text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit</caption>
+                            <colgroup>
+                                <col />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th><p>Method</p></th>
+                                    <th><p>Annual Depreciation Pattern</p></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><p>Straight&#x2010;line</p></td>
+                                    <td><p>Constant amount</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Declining&#x2010;balance</p></td>
+                                    <td><p>Decreasing amount</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Units&#x2010;of&#x2010;activity</p></td>
+                                    <td><p>Varying amount</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                        at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                </section>
+            </article>
+        </resource>
     </resources>
 </manifest>
