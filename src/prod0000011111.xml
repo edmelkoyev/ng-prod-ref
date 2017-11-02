@@ -271,7 +271,7 @@
         
         <!-- CHAPTER 3 -->
         <item identifier="ch03" type="chapter">
-            <title prefix="Ch 3">NGCP HP:Summery Content Markup Cases</title>
+            <title prefix="Ch 3">NGCP HP: Summary Content Markup Cases</title>
             
             <item identifier="sec0301" type="section">
                 <title prefix="3-1">HP: Summary with MathML Equations</title>
@@ -495,18 +495,18 @@
                         <li>Objective B: sed diam nonummy nibh <img src="images/image03.png" alt="packman"/> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
                         <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam <img src="images/image03.png" alt="packman"/> erat volutpat</li>
                     </ul>
-                    <fiure><img src="images/image01.png" alt="Red Ship"/></fiure>
+                    <figure><img src="images/image01.png" alt="Red Ship"/></figure>
                 </section>
                 <section class="js-secSummary">
                     <p>Lorem ipsum dolor sit amet, consectetuer <img src="images/image03.png" alt="packman"/> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    <fiure><img src="images/image01.png" alt="Red Ship"/></fiure>
+                    <figure><img src="images/image01.png" alt="Red Ship"/></figure>
                     <ol>
                         <li>Duis <img src="images/image03.png" alt="packman"/>autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
                         <li>vel illum dolore eu <img src="images/image03.png" alt="packman"/> feugiat nulla facilisis at vero eros et</li>
                         <li>accumsan et iusto <img src="images/image03.png" alt="packman"/> odio dignissim qui blandit praesent luptatum zzril</li>
                     </ol>
-                    <fiure><img src="images/image02.png" alt="White Ship"/></fiure>
+                    <figure><img src="images/image02.png" alt="White Ship"/></figure>
                 </section>
             </article>
         </resource>        
