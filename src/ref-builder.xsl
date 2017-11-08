@@ -620,6 +620,26 @@
         </tr>
     </xsl:template>
     
+    <xsl:template name="getPracriceTitle">
+        <xsl:variable name="curId"><xsl:value-of select="generate-id(.)"/></xsl:variable>
+        <xsl:for-each select="../ims:item[@type = 'practice']">
+            <xsl:if test="$curId = generate-id(.)"><xsl:value-of select="concat('Question ', position())"/></xsl:if>
+        </xsl:for-each>
+    </xsl:template>
+    
+    <xsl:template match="ims:item[@type = 'practice']" mode="prod-toc">
+        <tr class="info">
+            <td><xsl:call-template name="getResPosition"/></td>
+            <td><xsl:value-of select="@identifier"/></td>
+            <td><xsl:value-of select="@type"/></td>
+            <td><a href="https://dev-qa.api.wiley.com/was/v1/frontpage/questionView?qCardId={@qCardId}" target="_blank"><xsl:call-template name="getPracriceTitle"/></a></td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>n/a</td>
+            <td>n/a</td>
+        </tr>
+    </xsl:template>
+    
     <xsl:template name="getResPosition">
         <xsl:variable name="curId"><xsl:value-of select="generate-id(.)"/></xsl:variable>
         <xsl:for-each select="../ims:item">
