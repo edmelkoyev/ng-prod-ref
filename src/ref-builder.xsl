@@ -102,6 +102,7 @@
                         <xsl:when test="@type = 'homeComposite'"><xsl:call-template name="makeResource-homeComposite"/></xsl:when>
                         <xsl:when test="@type = 'onlineReading'"><xsl:call-template name="makeResource-onlineReading"/></xsl:when>
                         <xsl:when test="@type = 'mediaAsset'"><xsl:call-template name="makeResource-mediaAsset"/></xsl:when>
+                        <xsl:when test="@type = 'practice'"><xsl:call-template name="makeResource-practice"/></xsl:when>
                         <xsl:otherwise>{"_comment": "Resource: UNKNOWN", "type": "<xsl:value-of select="@type"/>"}</xsl:otherwise>
                     </xsl:choose>
                     
@@ -166,6 +167,15 @@
         </xsl:call-template>
     </xsl:template>
     
+    
+    <xsl:template name="makeResource-practice">
+        {
+        "_comment": "Resource: Practice Question",
+        "id": "<xsl:value-of select="@identifier"/>",
+        "type": "practice",
+        "url": "<xsl:value-of select="@qCardId"/>"
+        }
+    </xsl:template>
     
     <xsl:template name="getResourceUrl">
         <xsl:choose>

@@ -326,6 +326,53 @@
             </item>
         </item>
         
+        <item identifier="ch04" type="chapter">
+            <title prefix="Ch 4">NGCP Practice Questions</title>
+            
+            <item identifier="sec0401" type="section">
+                <title prefix="4-1">5 Pracice Questions, All Media Assets</title>
+                
+                <item identifier="res0401hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0401epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
+                    <title mode="auto"/>
+                </item>
+                <item identifier="res0401t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no" audience="1"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto"/></item>
+                <item identifier="res0401t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t07ma02" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t08ma02" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                
+                <item identifier="res0101q01" type="practice" qCardId="3719c1c6-082c-437e-8914-e49e77031381"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101q02" type="practice" qCardId="516731d1-974d-4951-8ae3-b460d45445a2"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101q03" type="practice" qCardId="a37c639a-1610-40a4-a2b3-99555f37ac02"><title counter="3" mode="auto"/></item>
+                <item identifier="res0101q04" type="practice" qCardId="73246dfd-e04a-4359-9bcc-07018dea6fda"><title counter="4" mode="auto"/></item>
+                <item identifier="res0101q05" type="practice" qCardId="680a94b4-a64c-4c2a-acb7-788e762c608c"><title counter="5" mode="auto"/></item>
+            </item>
+            
+            <item identifier="chapResCollection04" type="chapResCollection">
+                <title prefix="Ch 4">Chapter Level Resources</title>
+                <item identifier="chapres04t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_chap"/></item>
+                <item identifier="chapres04t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
+                <item identifier="chapres04t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
+            </item>
+            
+        </item>
         <!-- PRODUCT LEVEL RESOURCES -->
         <item identifier="prodResCollection00" type="prodResCollection">
             <title prefix="Prod">Product Level Resouces</title>
