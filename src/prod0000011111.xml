@@ -259,6 +259,35 @@
                 <item identifier="res0208t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="1" mode="auto"/></item>
                 <item identifier="res0208t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="2" mode="auto"/></item>
             </item>
+
+            <item identifier="sec0209" type="section">
+                <title prefix="2-9">Resources sorting</title>
+                
+                <item identifier="res0209hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0209t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>2-5, In another moment down went Alice after it, never once considering how in the world she was to get out again.</title></item>
+                <item identifier="res0209t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>1-1, Would the fall NEVER come to an end!</title></item>
+                <item identifier="res0209t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>1-2, How funny it'll seem to come out among the people that walk with their heads downward!</title></item>
+                <item identifier="res0209t01ma04" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>3-1, And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way.</title></item>
+                <item identifier="res0209t01ma05" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>1-4, Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead.</title></item>
+                <item identifier="res0209t01ma06" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>3-2, She was close behind it when she turned the corner.</title></item>
+                <item identifier="res0209t01ma07" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>2-1, Alice opened the door and found that it led into a small passage, not much larger than a rat-hole.</title></item>
+                <item identifier="res0209t01ma08" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>2-2, There seemed to be no use in waiting by the little door.</title></item>
+                <item identifier="res0209t01ma09" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title>6-3, She generally gave herself very good advice.</title></item>
+
+                <item identifier="res0209t01ma10" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>Wit and humor Satire</title></item>
+                <item identifier="res0209t01ma11" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title> West and Central(Space first!!!)</title></item>
+                <item identifier="res0209t01ma12" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>1. 488 By period</title></item>
+                <item identifier="res0209t01ma13" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>21. West and Central</title></item>
+                <item identifier="res0209t01ma14" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>2. Canadian literature</title></item>
+                <item identifier="res0209t01ma15" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>Individual authors</title></item>
+                <item identifier="res0209t01ma16" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>Collections of American literature</title></item>
+                <item identifier="res0209t01ma17" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>3. Biography, memoirs, letters, etc</title></item>
+                <item identifier="res0209t01ma18" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>10. Poetry</title></item>
+                <item identifier="res0209t01ma19" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>Juvenile literature (General)</title></item>
+                <item identifier="res0209t01ma20" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>11. South</title></item>
+            </item>
             
             
             <item identifier="chapResCollection02" type="chapResCollection">
@@ -316,6 +345,21 @@
                 <item identifier="res0303t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0303t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0303t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+            </item>
+
+            <item identifier="sec0304" type="section">
+                <title prefix="3-4">HP: Summary with Table and Images</title>
+                
+                <item identifier="res0304hpc" type="homeComposite" identifierref="res05hpc_tbl02">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0304epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
+                    <title mode="auto"/>
+                </item>
+                <item identifier="res0304t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0304t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
+                <item identifier="res0304t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0304t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
             </item>
             
             <item identifier="chapResCollection03" type="chapResCollection">
@@ -599,6 +643,62 @@
                                 <tr>
                                     <td><p>Units&#x2010;of&#x2010;activity</p></td>
                                     <td><p>Varying amount</p></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    
+                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis 
+                        at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.</p>
+                </section>
+            </article>
+        </resource>
+        <resource identifier="res05hpc_tbl02">
+            <article class="js-sectionHomeComosite" xmlns="http://www.w3.org/1999/xhtml">
+                <header>
+                    <h1>Dummy Homepage Composite, Table 01</h1>
+                </header>
+                <section class="js-secIntro">
+                    <ul>
+                        <li>Objective A: lorem ipsum dolor sit amet, consectetuer adipiscing elit</li>
+                        <li>Objective B: sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+                        <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
+                    </ul>
+                </section>
+                <section class="js-secSummary">
+                    
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
+                        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+                    
+                    <div class="tbl-center">
+                        <table>
+                            <caption>This is table caption text: <img src="images/image03.png" alt="packman"/> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</caption>
+                            <colgroup>
+                                <col />
+                                <col />
+                            </colgroup>
+                            <thead>
+                                <tr>
+                                    <th><p>Method</p></th>
+                                    <th><p>Annual Depreciation Pattern</p></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><p>Straight&#x2010;line</p></td>
+                                    <td><p>Constant amount<img src="images/image03.png" alt="packman"/></p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Declining&#x2010;balance</p></td>
+                                    <td><p>Decreasing amount</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Units&#x2010;of&#x2010;activity</p></td>
+                                    <td><p>Varying <img src="images/image03.png" alt="packman"/> amount</p></td>
+                                </tr>
+                                <tr>
+                                    <td><p>Units&#x2010;of&#x2010;activity</p></td>
+                                    <td><p><figure><img src="images/image02.png" alt="White Ship"/></figure></p></td>
                                 </tr>
                             </tbody>
                         </table>
