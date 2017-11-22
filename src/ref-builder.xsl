@@ -158,8 +158,8 @@
             <xsl:if test="number(@audience)">"audience": <xsl:value-of select="@audience"/>,</xsl:if>
             <xsl:if test="number(@importance)">"importance": <xsl:value-of select="@importance"/>,</xsl:if>
             <xsl:if test="string(@thumbnail) ne 'no'">"thumbnailUrl": "<xsl:value-of select="$tUrl"/>",</xsl:if>
-            <xsl:if test="number(@width)">"width": "<xsl:value-of select="@width"/>",</xsl:if>
-            <xsl:if test="number(@height)">"height": "<xsl:value-of select="@height"/>",</xsl:if>
+            <xsl:if test="number(@width)">"width": <xsl:value-of select="number(@width)"/>,</xsl:if>
+            <xsl:if test="number(@height)">"height": <xsl:value-of select="(@height)"/>,</xsl:if>
             <xsl:if test="string(@description)">"description": "<xsl:value-of select="@description"/>",</xsl:if>
             "url": "<xsl:value-of select="$aUrl"/>"
         }
