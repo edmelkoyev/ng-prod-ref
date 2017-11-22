@@ -19,6 +19,7 @@
     </metadata>
     
     <organization id="org001" structure="hierarchical">
+        <!-- CHAPTER 1: NGCP Homepage parts -->
         <item identifier="ch01" type="chapter">
             <title prefix="Ch 1">NGCP Homepage parts</title>
             
@@ -107,7 +108,7 @@
             </item>
         </item>
         
-        <!-- CHAPTER 2 -->
+        <!-- CHAPTER 2: NGCP Resources Tab Cases -->
         <item identifier="ch02" type="chapter">
             <title prefix="Ch 2">NGCP Resources Tab Cases</title>
             
@@ -298,7 +299,7 @@
             </item>
         </item>
         
-        <!-- CHAPTER 3 -->
+        <!-- CHAPTER 3: NGCP HP: Summary Content Markup Cases -->
         <item identifier="ch03" type="chapter">
             <title prefix="Ch 3">NGCP HP: Summary Content Markup Cases</title>
             
@@ -369,7 +370,8 @@
                 <item identifier="chapres03t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
             </item>
         </item>
-        
+
+        <!-- CHAPTER 4: NGCP Practice Questions -->
         <item identifier="ch04" type="chapter">
             <title prefix="Ch 4">NGCP Practice Questions</title>
             
@@ -417,12 +419,128 @@
             </item>
             
         </item>
+        
+        <!-- CHAPTER 5: Related Tab: No Chapter Level Resources -->
+        <item identifier="ch05" type="chapter">
+            <title prefix="Ch 5">Related Tab: No Chapter Level Resources</title>
+            
+            <item identifier="sec0501" type="section">
+                <title prefix="5-1">1 Media Asset</title>
+                
+                <item identifier="res0501hpc" type="homeComposite" identifierref="res00hpc_dummy"><title>Homepage Composite</title></item>
+                <item identifier="res0501epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0"><title mode="auto"/></item>
+                <item identifier="res0501t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+            </item>
+            
+            <item identifier="chapResCollection05" type="chapResCollection">
+                <title prefix="Ch 5">Chapter Level Resources</title>
+                <!-- No Chapter Level Resources --> 
+            </item>
+        </item>
+        
+        <!-- CHAPTER 6: Related Tab: 9 Chapter Level Resources for sorting -->
+        <item identifier="ch06" type="chapter">
+            <title prefix="Ch 6">Related Tab: 9 Chapter Level Resources for sorting</title>
+            
+            <item identifier="sec0601" type="section">
+                <title prefix="6-1">1 Media Asset</title>
+                
+                <item identifier="res0601hpc" type="homeComposite" identifierref="res00hpc_dummy"><title>Homepage Composite</title></item>
+                <item identifier="res0601epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0"><title mode="auto"/></item>
+                <item identifier="res0601t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+            </item>
+            
+            <item identifier="chapResCollection06" type="chapResCollection">
+                <title prefix="Ch 6">Chapter Level Resources</title>
+                <item identifier="chapres06t03ma01" type="mediaAsset" mType="3" importance="1" bRef="bkt01" thumbnail="auto"><title counter="1">1-4, Alice was not a bit hurt, and she jumped up on to her feet in a moment: she looked up, but it was all dark overhead</title></item>
+                <item identifier="chapres06t03ma02" type="mediaAsset" mType="3" importance="1" bRef="bkt01" thumbnail="auto"><title counter="2">2-2, There seemed to be no use in waiting by the little door</title></item>
+                <item identifier="chapres06t09ma01" type="mediaAsset" mType="9" importance="1" bRef="bkt01" thumbnail="auto"><title counter="1">3-2, She was close behind it when she turned the corner</title></item>
+                <item identifier="chapres06t09ma02" type="mediaAsset" mType="9" importance="1" bRef="bkt01" thumbnail="auto"><title counter="2">6-3, She generally gave herself very good advice</title></item>
+                <item identifier="chapres06t05ma01" type="mediaAsset" mType="5" importance="1" bRef="bkt01" thumbnail="auto"><title counter="1">2-1, Alice opened the door and found that it led into a small passage, not much larger than a rat-hole</title></item>
+                <item identifier="chapres06t05ma02" type="mediaAsset" mType="5" importance="2" bRef="bkt01" thumbnail="auto"><title counter="2">488 By period</title></item>
+                <item identifier="chapres06t07ma01" type="mediaAsset" mType="7" importance="2" bRef="bkt01" thumbnail="auto"><title counter="1">Individual authors</title></item>
+                <item identifier="chapres06t07ma02" type="mediaAsset" mType="7" importance="2" bRef="bkt01" thumbnail="auto"><title counter="2">21 West and Central</title></item>
+                <item identifier="chapres06t08ma02" type="mediaAsset" mType="8" importance="2" bRef="bkt01" thumbnail="auto"><title counter="1">2 Canadian literature</title></item>
+            </item>
+        </item>
+        
+        <!-- CHAPTER 7: Related Tab: 10 Chapter Level Resources for truncation -->
+        <item identifier="ch07" type="chapter">
+            <title prefix="Ch 7">Related Tab: 10 Chapter Level Resources for truncation</title>
+            
+            <item identifier="sec0701" type="section">
+                <title prefix="7-1">1 Media Asset</title>
+                
+                <item identifier="res0701hpc" type="homeComposite" identifierref="res00hpc_dummy"><title>Homepage Composite</title></item>
+                <item identifier="res0701epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0"><title mode="auto"/></item>
+                <item identifier="res0701t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+            </item>
+            
+            <item identifier="chapResCollection07" type="chapResCollection">
+                <title prefix="Ch 7">Chapter Level Resources</title>
+                <item identifier="chapres07t06ma01" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="no">     <title counter="1">Chapter Level Resource without thumbnail (checking substitution)</title></item>
+                <item identifier="chapres07t06ma02" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto">   <title counter="2">There are many beautiful cities and towns in the world. I would like to visit some of them, to see with my own eyes what I have read or heard about.</title></item>
+                <item identifier="chapres07t06ma03" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto">   <title counter="3">Opposite the post office there is a modern hotel. If you turn to the left, you can see a underground.</title></item>
+                <item identifier="chapres07t06ma04" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto">   <title counter="4">My city is old and modern at the same time. It is old because it was founded in the 11th century. At that time its streets were narrow, dark and dirty. Now my city looks modern because of its architecture. Almost all the buildings were built after the war. The streets and avenues are wide and clean.</title></item>                
+                <item identifier="chapres07t06ma05" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto">   <title counter="5">The Big Four</title></item>
+                <item identifier="chapres07t06ma06" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto_sm"><title counter="6">Mark Twain, Adventures of Huckleberry Finn (1884)</title></item>
+                <item identifier="chapres07t06ma07" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto_lg"><title counter="7">Tolkien John Ronald Reuel, John Ronald Reuel Tolkien Smith of Wootton Major (1967)</title></item>
+                <item identifier="chapres07t06ma08" type="mediaAsset" mType="6" importance="2" bRef="bkt01" thumbnail="auto">   <title counter="8">hexamethylenetriperoxidediaminpolychlorid</title></item>
+                <item identifier="chapres07t06ma09" type="mediaAsset" mType="6" importance="2" bRef="bkt01" thumbnail="auto">   <title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
+                <item identifier="chapres07t06ma10" type="mediaAsset" mType="6" importance="2" bRef="bkt01" thumbnail="auto">   <title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
+            </item>
+        </item>
+        
+        <!-- CHAPTER 8: Related Tab: No Chapter Level Resources -->
+        <item identifier="ch08" type="chapter">
+            <title prefix="Ch 8">Launch of the Resourse</title>
+            
+            <item identifier="sec0801" type="section">
+                <title prefix="8-1">Launch of the Resourse</title>
+                
+                <item identifier="res0801hpc" type="homeComposite" identifierref="res00hpc_dummy"><title>Homepage Composite</title></item>
+                <item identifier="res0801epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0"><title mode="auto"/></item>
+                
+                <item identifier="res0801t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" height="300"><title counter="1">SR1, Section Resource, no width / height=300</title></item>
+                <item identifier="res0801t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" width="300"><title counter="2">SR2, Section Resource, width=300 / no height</title></item>
+                <item identifier="res0801t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="3">SR3, Section Resource, no width / no height</title></item>
+                <item identifier="res0801t01ma04" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" width="500" height="500"><title counter="4">SR4, Section Resource, width=500 / height=500</title></item>
+                <item identifier="res0801t01ma05" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" width="1024" height="768"
+                    description="This is Description text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+                    ><title counter="4">SR5, Section Resource, width=1024 / height=768 / decsr +</title></item>
+            </item>
+            
+            <item identifier="chapResCollection08" type="chapResCollection">
+                <title prefix="Ch 8">Chapter Level Resources</title>
+                
+                <item identifier="chapres08t06ma01" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto" height="300"><title counter="1">CR01, Chapter Resource, no width / height=300</title></item>
+                <item identifier="chapres08t06ma02" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto" width="300"><title counter="2">CR02, Chapter Resource, width=300 / no heigh</title></item>
+                <item identifier="chapres08t06ma03" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto"><title counter="3">CR03, Chapter Resource, no width / no height</title></item>
+                <item identifier="chapres08t06ma04" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto" width="500" height="500"><title counter="4">CR04, Chapter Resource, width=500 / height=500</title></item>
+                <item identifier="chapres08t06ma05" type="mediaAsset" mType="6" importance="1" bRef="bkt01" thumbnail="auto" width="1024" height="768"
+                    description="This is Description text: Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, 
+                        vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi."                    
+                    ><title counter="4">CR05, Chapter Resource, width=500 / height=500</title></item>
+                
+            </item>
+        </item>
+        
         <!-- PRODUCT LEVEL RESOURCES -->
         <item identifier="prodResCollection00" type="prodResCollection">
             <title prefix="Prod">Product Level Resouces</title>
+            <!-- 
             <item identifier="prodres01t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_prod"/></item>
             <item identifier="prodres01t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_prod"/></item>
             <item identifier="prodres01t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_prod"/></item>
+            -->
+            
+            <item identifier="prodres01t01ma01" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>2-5, In another moment down went Alice after it, never once considering how in the world she was to get out again.</title></item>
+            <item identifier="prodres01t01ma02" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>1-1, Would the fall NEVER come to an end!</title></item>
+            <item identifier="prodres01t02ma01" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>1-2, How funny it'll seem to come out among the people that walk with their heads downward!</title></item>
+            <item identifier="prodres01t02ma02" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>3-1, And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way.</title></item>
+            <item identifier="prodres01t06ma01" type="mediaAsset" mType="1" importance="2" bRef="bkt01" thumbnail="auto"><title>Wit and humor Satire.</title></item>
+            <item identifier="prodres01t06ma02" type="mediaAsset" mType="1" importance="2" bRef="bkt01" thumbnail="auto"><title>West and Central.</title></item>
+                        
         </item>
     </organization>
     
@@ -586,18 +704,18 @@
                         <li>Objective B: sed diam nonummy nibh <img src="images/image03.png" alt="packman"/> euismod tincidunt ut laoreet dolore magna aliquam erat volutpat</li>
                         <li>Objective C: euismod tincidunt ut laoreet dolore magna aliquam <img src="images/image03.png" alt="packman"/> erat volutpat</li>
                     </ul>
-                    <figure><img src="images/image01.png" alt="Red Ship"/></figure>
+                    <figure><img class="img-responsive" src="images/image01.png" alt="Red Ship"/></figure>
                 </section>
                 <section class="js-secSummary">
                     <p>Lorem ipsum dolor sit amet, consectetuer <img src="images/image03.png" alt="packman"/> adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    <figure><img src="images/image01.png" alt="Red Ship"/></figure>
+                    <figure><img class="img-responsive" src="images/image01.png" alt="Red Ship"/></figure>
                     <ol>
                         <li>Duis <img src="images/image03.png" alt="packman"/>autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</li>
                         <li>vel illum dolore eu <img src="images/image03.png" alt="packman"/> feugiat nulla facilisis at vero eros et</li>
                         <li>accumsan et iusto <img src="images/image03.png" alt="packman"/> odio dignissim qui blandit praesent luptatum zzril</li>
                     </ol>
-                    <figure><img src="images/image02.png" alt="White Ship"/></figure>
+                    <figure><img class="img-responsive" src="images/image02.png" alt="White Ship"/></figure>
                 </section>
             </article>
         </resource>        
@@ -618,7 +736,7 @@
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
                     
-                    <div class="tbl-center">
+                    <div class="tbl-center table-responsive">
                         <table>
                             <caption>This is table caption text: Lorem ipsum dolor sit amet, consectetuer adipiscing elit</caption>
                             <colgroup>
@@ -669,8 +787,8 @@
                     
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. 
                         Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-                    
-                    <div class="tbl-center">
+
+                    <div class="tbl-center table-responsive">
                         <table>
                             <caption>This is table caption text: <img src="images/image03.png" alt="packman"/> Lorem ipsum dolor sit amet, consectetuer adipiscing elit</caption>
                             <colgroup>
@@ -698,7 +816,7 @@
                                 </tr>
                                 <tr>
                                     <td><p>Units&#x2010;of&#x2010;activity</p></td>
-                                    <td><p><figure><img src="images/image02.png" alt="White Ship"/></figure></p></td>
+                                    <td><p><figure><img class="img-responsive" src="images/image02.png" alt="White Ship"/></figure></p></td>
                                 </tr>
                             </tbody>
                         </table>

@@ -158,6 +158,9 @@
             <xsl:if test="number(@audience)">"audience": <xsl:value-of select="@audience"/>,</xsl:if>
             <xsl:if test="number(@importance)">"importance": <xsl:value-of select="@importance"/>,</xsl:if>
             <xsl:if test="string(@thumbnail) ne 'no'">"thumbnailUrl": "<xsl:value-of select="$tUrl"/>",</xsl:if>
+            <xsl:if test="number(@width)">"width": "<xsl:value-of select="@width"/>",</xsl:if>
+            <xsl:if test="number(@height)">"height": "<xsl:value-of select="@height"/>",</xsl:if>
+            <xsl:if test="string(@description)">"description": "<xsl:value-of select="@description"/>",</xsl:if>
             "url": "<xsl:value-of select="$aUrl"/>"
         }
         
@@ -365,13 +368,17 @@
                 </head>
                 <body>
                     <div class="container">
+                        <!-- 
                         <div class="page-header">
                             <h1><xsl:value-of select="$rTitle"/></h1>
                         </div>
+                        -->
                         
                         <xsl:variable name="maColors"><xsl:call-template name="getMaTypeColors"/></xsl:variable>
                         
                         <div class="text-center"><img src="https://via.placeholder.com/640x480/{$maColors}/?text=Media+for+{$rText}" alt="$fName"/></div>
+                        
+                        <p class="sr-only"><xsl:value-of select="$rTitle"/></p>
                     </div>
                 </body>
             </html>
@@ -459,8 +466,7 @@
                             <th>Res Type</th>
                             <th>Res Title</th>
                             <th>Media Type</th>
-                            <th>Audience</th>
-                            <th>Importance</th>
+                            <th>Metadata</th>
                             <th>Thumbnail</th>
                         </tr>
                     </thead>
@@ -491,8 +497,7 @@
                             <th>Res Type</th>
                             <th>Res Title</th>
                             <th>Media Type</th>
-                            <th>Audience</th>
-                            <th>Importance</th>
+                            <th>Metadata</th>
                             <th>Thumbnail</th>
                         </tr>
                     </thead>
@@ -539,8 +544,7 @@
                             <th>Res Type</th>
                             <th>Res Title</th>
                             <th>Media Type</th>
-                            <th>Audience</th>
-                            <th>Importance</th>
+                            <th>Metadata</th>
                             <th>Thumbnail</th>
                         </tr>
                     </thead>
@@ -564,8 +568,7 @@
             <td><xsl:value-of select="@type"/></td>
             <td><a href="{$aUrl}"><xsl:value-of select="ims:title"/></a></td>
             <td>n/a</td>
-            <td>n/a</td>
-            <td>n/a</td>
+            <td/><!-- Meatdata -->
             <td>n/a</td>
         </tr>
     </xsl:template>
@@ -579,8 +582,7 @@
             <td><xsl:value-of select="@type"/></td>
             <td><xsl:call-template name="getEpubResourceTitle"/></td>
             <td>n/a</td>
-            <td>n/a</td>
-            <td>n/a</td>
+            <td>n/a</td><!-- Meatdata -->
             <td>
                 <img src="{$aUrl}" alt="Cover Image 85x113"/>
             </td>
@@ -597,16 +599,44 @@
             <td><a href="{$aUrl}"><xsl:call-template name="getMaResourceTitle"/></a></td>
             <td><xsl:call-template name="getMaTypeName"/></td>
             <td>
-                <xsl:choose>
-                    <xsl:when test="number(@audience) = 2">[2]Instructor</xsl:when>
-                    <xsl:otherwise>[1]Student</xsl:otherwise>
-                </xsl:choose>    
-            </td>
-            <td>
-                <xsl:choose>
-                    <xsl:when test="number(@importance) = 2">[2]Secondary</xsl:when>
-                    <xsl:otherwise>[1]Primary</xsl:otherwise>
-                </xsl:choose>    
+                <ul>
+                    <li class="text-nowrap">Audience:
+                        <xsl:choose>
+                            <xsl:when test="number(@audience) = 2">[2]Instructor</xsl:when>
+                            <xsl:otherwise>[1]Student</xsl:otherwise>
+                        </xsl:choose>
+                    </li>
+                    <li class="text-nowrap">
+                        Importance: 
+                        <xsl:choose>
+                            <xsl:when test="number(@importance) = 2">[2]Secondary</xsl:when>
+                            <xsl:otherwise>[1]Primary</xsl:otherwise>
+                        </xsl:choose>                        
+                    </li>
+                    <li class="text-nowrap">
+                        width: 
+                        <xsl:choose>
+                            <xsl:when test="number(@width)"><xsl:value-of select="@width"/></xsl:when>
+                            <xsl:otherwise>-</xsl:otherwise>
+                        </xsl:choose>                        
+                    </li>
+                    <li class="text-nowrap">
+                        height: 
+                        <xsl:choose>
+                            <xsl:when test="number(@height)"><xsl:value-of select="@height"/></xsl:when>
+                            <xsl:otherwise>-</xsl:otherwise>
+                        </xsl:choose>                        
+                    </li>
+                    <li class="text-nowrap">
+                        description: 
+                        <xsl:choose>
+                            <xsl:when test="string(@description)">
+                                <span title="{@description}">provided</span>
+                            </xsl:when>
+                            <xsl:otherwise>-</xsl:otherwise>
+                        </xsl:choose>                        
+                    </li>
+                </ul>                
             </td>
             <td>
                 <xsl:choose>
@@ -634,8 +664,7 @@
             <td><xsl:value-of select="@type"/></td>
             <td><a href="https://dev-qa.api.wiley.com/was/v1/frontpage/questionView?qCardId={@qCardId}" target="_blank"><xsl:call-template name="getPracriceTitle"/></a></td>
             <td>n/a</td>
-            <td>n/a</td>
-            <td>n/a</td>
+            <td>n/a</td><!-- Metadata -->
             <td>n/a</td>
         </tr>
     </xsl:template>
