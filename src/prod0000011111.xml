@@ -536,10 +536,10 @@
             
             <item identifier="prodres01t01ma01" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>2-5, In another moment down went Alice after it, never once considering how in the world she was to get out again.</title></item>
             <item identifier="prodres01t01ma02" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>1-1, Would the fall NEVER come to an end!</title></item>
-            <item identifier="prodres01t02ma01" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>1-2, How funny it'll seem to come out among the people that walk with their heads downward!</title></item>
-            <item identifier="prodres01t02ma02" type="mediaAsset" mType="1" importance="1" bRef="bkt01" thumbnail="auto"><title>3-1, And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way.</title></item>
-            <item identifier="prodres01t06ma01" type="mediaAsset" mType="1" importance="2" bRef="bkt01" thumbnail="auto"><title>Wit and humor Satire.</title></item>
-            <item identifier="prodres01t06ma02" type="mediaAsset" mType="1" importance="2" bRef="bkt01" thumbnail="auto"><title>West and Central.</title></item>
+            <item identifier="prodres01t02ma01" type="mediaAsset" mType="2" importance="1" bRef="bkt01" thumbnail="auto"><title>1-2, How funny it'll seem to come out among the people that walk with their heads downward!</title></item>
+            <item identifier="prodres01t02ma02" type="mediaAsset" mType="2" importance="1" bRef="bkt01" thumbnail="auto"><title>3-1, And here Alice began to get rather sleepy, and went on saying to herself, in a dreamy sort of way.</title></item>
+            <item identifier="prodres01t06ma01" type="mediaAsset" mType="6" importance="2" bRef="bkt01" thumbnail="auto"><title>Wit and humor Satire.</title></item>
+            <item identifier="prodres01t06ma02" type="mediaAsset" mType="6" importance="2" bRef="bkt01" thumbnail="auto"><title>West and Central.</title></item>
                         
         </item>
     </organization>
