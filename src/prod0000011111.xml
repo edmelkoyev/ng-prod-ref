@@ -8,7 +8,7 @@
             <ng:shortTitle>WPNG-CP Reference</ng:shortTitle>
             <ng:title>WP NextGen, Content Player Reference Product</ng:title>
             <ng:author>Locomotive Team</ng:author>
-            <ng:edition>0.1.0</ng:edition>
+            <ng:edition>0.13.1</ng:edition>
             <ng:coverImage url="cover.png"/>
             
             <ng:objectNameGroup>

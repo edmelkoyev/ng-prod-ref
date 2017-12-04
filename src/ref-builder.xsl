@@ -10,8 +10,13 @@
     <xsl:output method="xml" encoding="UTF-8" omit-xml-declaration="yes" />
     
     <!-- PARAMS -->
-    <xsl:param name="mode">aws</xsl:param><!-- relative | aws -->
+    <xsl:param name="mode">aws</xsl:param><!-- relative | aws | aws_dev | aws_qa | aws_prod -->
+    
     <xsl:param name="awsCloud">https://ng-wp-dev.wiley.com/ngcpp/ngcp_catalog/content/prod0000011111</xsl:param>
+    
+    <xsl:param name="awsCloud_dev">https://drbuc2jl8158i.cloudfront.net/canvas/prod0000011111</xsl:param>
+    <xsl:param name="awsCloud_qa"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
+    <xsl:param name="awsCloud_prod"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
 
     <xsl:template match="/">
         {
@@ -35,7 +40,7 @@
         "contentMeta": {
             "shortTitle": "<xsl:value-of select="ng:shortTitle"/>",
             "title": "<xsl:value-of select="ng:title"/>",
-            "author": "<xsl:value-of select="ng:author"/>",
+            "author": "<xsl:value-of select="ng:author"/>, mode: <xsl:value-of select="$mode"/>",
             "edition": "<xsl:value-of select="ng:edition"/>",
             "coverImageUrl": "<xsl:value-of select="$aUrl"/>",
             "objectNameGroup": [<xsl:apply-templates select="ng:objectNameGroup"></xsl:apply-templates>]
@@ -200,6 +205,9 @@
         
         <xsl:choose>
             <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"></xsl:value-of></xsl:when>
             <xsl:otherwise><xsl:value-of select="$rUrl"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -209,6 +217,9 @@
         
         <xsl:choose>
             <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"></xsl:value-of></xsl:when>
             <xsl:otherwise><xsl:value-of select="$rUrl"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>

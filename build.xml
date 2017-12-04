@@ -77,13 +77,72 @@
 			<param name="in_xsl" value="ref-builder.xsl"/>
 			<param name="in_result" value="prod0000011111.json"/>
 			<param name="in_log" value="ref-builder.log"/>
-			<param name="in_params" value="preffix=qid" />
+			<param name="in_params" value="mode=aws" />
 		</antcall>
-	
-	
-	
 	</target>
 	
+	<!-- ng aws for DEV environment -->
+	<!-- ============================== -->
+	<target name="make-out-dev" depends="dist">
+		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
+		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+		
+		<copy todir="${out}/data/images">
+				<fileset dir="${src}/images">
+					<exclude name="**/*.java"/>
+				</fileset>
+		</copy>
+			
+		<antcall target="transformation">
+			<param name="in_xml" value="prod0000011111.xml"/>
+			<param name="in_xsl" value="ref-builder.xsl"/>
+			<param name="in_result" value="prod0000011111.json"/>
+			<param name="in_log" value="ref-builder.log"/>
+			<param name="in_params" value="mode=aws_dev" />
+		</antcall>
+	</target>
+	
+	<!-- ng aws for QA environment -->
+	<!-- ============================== -->
+	<target name="make-out-qa" depends="dist">
+		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
+		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+		
+		<copy todir="${out}/data/images">
+				<fileset dir="${src}/images">
+					<exclude name="**/*.java"/>
+				</fileset>
+		</copy>
+			
+		<antcall target="transformation">
+			<param name="in_xml" value="prod0000011111.xml"/>
+			<param name="in_xsl" value="ref-builder.xsl"/>
+			<param name="in_result" value="prod0000011111.json"/>
+			<param name="in_log" value="ref-builder.log"/>
+			<param name="in_params" value="mode=aws_qa" />
+		</antcall>
+	</target>
+	
+	<!-- ng aws for PROD environment -->
+	<!-- ============================== -->
+	<target name="make-out-prod" depends="dist">
+		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
+		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+		
+		<copy todir="${out}/data/images">
+				<fileset dir="${src}/images">
+					<exclude name="**/*.java"/>
+				</fileset>
+		</copy>
+			
+		<antcall target="transformation">
+			<param name="in_xml" value="prod0000011111.xml"/>
+			<param name="in_xsl" value="ref-builder.xsl"/>
+			<param name="in_result" value="prod0000011111.json"/>
+			<param name="in_log" value="ref-builder.log"/>
+			<param name="in_params" value="mode=aws_prod" />
+		</antcall>
+	</target>
 	
 	<!-- delete folders structure -->
 	<target name="clean-out" description="delete 'out' directory">
