@@ -13,7 +13,6 @@
     <xsl:param name="mode">aws</xsl:param><!-- relative | aws | aws_dev | aws_qa | aws_prod -->
     
     <xsl:param name="awsCloud">https://ng-wp-dev.wiley.com/ngcpp/ngcp_catalog/content/prod0000011111</xsl:param>
-    
     <xsl:param name="awsCloud_dev">https://drbuc2jl8158i.cloudfront.net/canvas/prod0000011111</xsl:param>
     <xsl:param name="awsCloud_qa"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
     <xsl:param name="awsCloud_prod"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
@@ -165,7 +164,7 @@
             <xsl:if test="string(@thumbnail) ne 'no'">"thumbnailUrl": "<xsl:value-of select="$tUrl"/>",</xsl:if>
             <xsl:if test="number(@width)">"width": <xsl:value-of select="number(@width)"/>,</xsl:if>
             <xsl:if test="number(@height)">"height": <xsl:value-of select="(@height)"/>,</xsl:if>
-            <xsl:if test="string(@description)">"description": "<xsl:value-of select="@description"/>",</xsl:if>
+            <xsl:if test="string(@description)">"description": "<xsl:value-of select="normalize-space(@description)"/>",</xsl:if>
             "url": "<xsl:value-of select="$aUrl"/>"
         }
         
@@ -204,10 +203,10 @@
         <xsl:variable name="rUrl"><xsl:call-template name="getResourceUrl"/></xsl:variable>
         
         <xsl:choose>
-            <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="$rUrl"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -216,10 +215,10 @@
         <xsl:variable name="rUrl"><xsl:value-of select="/ims:manifest/ims:metadata/ng:meta/ng:coverImage/@url"/></xsl:variable>
         
         <xsl:choose>
-            <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"></xsl:value-of></xsl:when>
-            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"></xsl:value-of></xsl:when>
+            <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"/></xsl:when>
+            <xsl:when test="$mode = 'aws_prod'"><xsl:value-of select="concat($awsCloud_prod, '/', $rUrl)"/></xsl:when>
             <xsl:otherwise><xsl:value-of select="$rUrl"/></xsl:otherwise>
         </xsl:choose>
     </xsl:template>
@@ -366,6 +365,18 @@
         <xsl:param name="rTitle">Default Title</xsl:param>
         
         <xsl:variable name="rText"><xsl:call-template name="getMaTypeName"/></xsl:variable>
+        <xsl:variable name="rWidth">
+            <xsl:choose>
+                <xsl:when test="number(@width) and number(@height)"><xsl:value-of select="number(@width)"/></xsl:when>
+                <xsl:otherwise>800</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
+        <xsl:variable name="rHeight">
+            <xsl:choose>
+                <xsl:when test="number(@width) and number(@height)"><xsl:value-of select="number(@height)"/></xsl:when>
+                <xsl:otherwise>600</xsl:otherwise>
+            </xsl:choose>
+        </xsl:variable>
         
         <xsl:result-document href="{$fName}"  format="docOutput">
             <xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html></xsl:text>
@@ -378,19 +389,9 @@
                         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
                 </head>
                 <body>
-                    <div class="container">
-                        <!-- 
-                        <div class="page-header">
-                            <h1><xsl:value-of select="$rTitle"/></h1>
-                        </div>
-                        -->
-                        
-                        <xsl:variable name="maColors"><xsl:call-template name="getMaTypeColors"/></xsl:variable>
-                        
-                        <div class="text-center"><img src="https://via.placeholder.com/640x480/{$maColors}/?text=Media+for+{$rText}" alt="$fName"/></div>
-                        
-                        <p class="sr-only"><xsl:value-of select="$rTitle"/></p>
-                    </div>
+                    <xsl:variable name="maColors"><xsl:call-template name="getMaTypeColors"/></xsl:variable>
+                    <div class="text-center"><img src="https://via.placeholder.com/{$rWidth}x{$rHeight}/{$maColors}/?text=Media+for+{$rText}" alt="{$fName}"/></div>
+                    <p class="sr-only"><xsl:value-of select="$rTitle"/></p>
                 </body>
             </html>
         </xsl:result-document>
@@ -642,7 +643,7 @@
                         description: 
                         <xsl:choose>
                             <xsl:when test="string(@description)">
-                                <span title="{@description}">provided</span>
+                                <span title="{normalize-space(@description)}">provided</span>
                             </xsl:when>
                             <xsl:otherwise>-</xsl:otherwise>
                         </xsl:choose>                        

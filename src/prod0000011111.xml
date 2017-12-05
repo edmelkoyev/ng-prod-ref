@@ -8,7 +8,7 @@
             <ng:shortTitle>WPNG-CP Reference</ng:shortTitle>
             <ng:title>WP NextGen, Content Player Reference Product</ng:title>
             <ng:author>Locomotive Team</ng:author>
-            <ng:edition>0.13.1</ng:edition>
+            <ng:edition>0.13.2</ng:edition>
             <ng:coverImage url="cover.png"/>
             
             <ng:objectNameGroup>
@@ -39,8 +39,6 @@
                 <item identifier="res0101t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0101t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0101t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0101t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0101t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0101t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
@@ -61,15 +59,14 @@
                 <item identifier="res0102epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
                     <title mode="auto"/>
                 </item>
-                <item identifier="res0102t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
-                <item identifier="res0102t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>                              
+                <item identifier="res0102t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t02ma01" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item> 
+                <item identifier="res0102t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t07ma01" type="mediaAsset" mType="7" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t08ma01" type="mediaAsset" mType="8" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                <item identifier="res0102t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
             </item>
             <item identifier="sec0103" type="section">
                 <title prefix="1-3">Home Page, LO+, SUM+, MA(1)</title>
@@ -164,8 +161,6 @@
                 <item identifier="res0203t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0203t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0203t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0203t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0203t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0203t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0203t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0203t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
@@ -193,8 +188,6 @@
                 <item identifier="res0204t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0204t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
                 <item identifier="res0204t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0204t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0204t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0204t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
                 <item identifier="res0204t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0204t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
@@ -237,8 +230,6 @@
                 <item identifier="res0207t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0207t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
                 <item identifier="res0207t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0207t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
-                <item identifier="res0207t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0207t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
                 <item identifier="res0207t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no" importance="2"><title counter="2" mode="auto"/></item>
                 <item identifier="res0207t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="2"><title counter="1" mode="auto"/></item>
@@ -376,7 +367,7 @@
             <title prefix="Ch 4">NGCP Practice Questions</title>
             
             <item identifier="sec0401" type="section">
-                <title prefix="4-1">5 Pracice Questions, All Media Assets</title>
+                <title prefix="4-1">Pracice Questions, All Media Assets</title>
                 
                 <item identifier="res0401hpc" type="homeComposite" identifierref="res00hpc_dummy">
                     <title>Homepage Composite</title>
@@ -391,8 +382,6 @@
                 <item identifier="res0401t02ma02" type="mediaAsset" mType="2" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0401t03ma01" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0401t03ma02" type="mediaAsset" mType="3" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
-                <item identifier="res0401t04ma01" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
-                <item identifier="res0401t04ma02" type="mediaAsset" mType="4" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0401t05ma01" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0401t05ma02" type="mediaAsset" mType="5" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 <item identifier="res0401t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
@@ -404,11 +393,13 @@
                 <item identifier="res0401t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0401t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 
-                <item identifier="res0101q01" type="practice" qCardId="3719c1c6-082c-437e-8914-e49e77031381"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101q02" type="practice" qCardId="516731d1-974d-4951-8ae3-b460d45445a2"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101q03" type="practice" qCardId="a37c639a-1610-40a4-a2b3-99555f37ac02"><title counter="3" mode="auto"/></item>
-                <item identifier="res0101q04" type="practice" qCardId="73246dfd-e04a-4359-9bcc-07018dea6fda"><title counter="4" mode="auto"/></item>
-                <item identifier="res0101q05" type="practice" qCardId="680a94b4-a64c-4c2a-acb7-788e762c608c"><title counter="5" mode="auto"/></item>
+                <item identifier="res0101q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5"><title counter="3" mode="auto"/></item>
+                <item identifier="res0101q04" type="practice" qCardId="5bd29738-b349-4716-b7e0-37fb3334c4d6"><title counter="4" mode="auto"/></item>
+                <item identifier="res0101q05" type="practice" qCardId="1c377336-53f0-4a92-b96b-e9fbbe80694e"><title counter="5" mode="auto"/></item>
+                <item identifier="res0101q06" type="practice" qCardId="4bdf9a6c-b2b0-41fb-bc0c-36b7f7da20a9"><title counter="5" mode="auto"/></item>
+                <item identifier="res0101q07" type="practice" qCardId="6947c157-ede7-4f13-8e40-d8ce289377f8"><title counter="5" mode="auto"/></item>
             </item>
             
             <item identifier="chapResCollection04" type="chapResCollection">
