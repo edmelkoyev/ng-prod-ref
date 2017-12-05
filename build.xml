@@ -48,7 +48,28 @@
 			<!-- params -->
 			<arg line=" ${in_params}"/>
 		</exec>
-	</target>	
+	</target>
+
+	<target name="transformation4env">
+		<!-- in_xml -->
+		<!-- in_xsl -->
+		<!-- in_result -->
+		<!-- in_log -->
+		<!-- in_env -->
+		
+		<!-- imsmanifest -->
+		<exec dir="${src}" executable="java.exe" output="${log}/${in_log}">
+			<arg line="-cp ${saxon.path.crossplatform} net.sf.saxon.Transform -t"/>
+			<!-- source -->
+			<arg line=" -s:${in_xml}"/>
+			<!-- styles -->
+			<arg line=" -xsl:${in_xsl}"/>
+			<!-- result -->
+			<arg line=" -o:${out}/${in_env}/${in_result}"/>
+			<!-- params -->
+			<arg line=" ${in_params}"/>
+		</exec>
+	</target>
 	
 	<!-- /////////////// external calls /////////////// -->
 	
@@ -62,15 +83,6 @@
 					<exclude name="**/*.java"/>
 				</fileset>
 		</copy>
-
-		<!--
-		<antcall target="transformation">
-			<param name="in_xml" value="qtypes/qtypes.xml"/>
-			<param name="in_xsl" value="qtypes/qtypes.xsl"/>
-			<param name="in_result" value="qtypes-out.html"/>
-			<param name="in_log" value="qtypes.log"/>
-		</antcall>
-		-->
 			
 		<antcall target="transformation">
 			<param name="in_xml" value="prod0000011111.xml"/>
@@ -81,68 +93,69 @@
 		</antcall>
 	</target>
 	
-	<!-- ng aws for DEV environment -->
-	<!-- ============================== -->
-	<target name="make-out-dev" depends="dist">
-		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
-		<copy file="${src}/version.json" tofile="${out}/version.json"/>
+	<!-- =========================== -->
+	
+	<target name="MakeEnv" depends="dist">
+		<!-- in_env -->
 		
-		<copy todir="${out}/data/images">
-				<fileset dir="${src}/images">
-					<exclude name="**/*.java"/>
-				</fileset>
+		<mkdir dir="${out}/${in_env}"/>
+		<copy file="${src}/cover.png" tofile="${out}/${in_env}/cover.png"/>
+		<copy file="${src}/version.json" tofile="${out}/${in_env}/version.json"/>
+		
+		<copy todir="${out}/${in_env}/data/images">
+			<fileset dir="${src}/images">
+				<exclude name="**/*.java"/>
+			</fileset>
 		</copy>
-			
-		<antcall target="transformation">
+		
+		<antcall target="transformation4env">
 			<param name="in_xml" value="prod0000011111.xml"/>
 			<param name="in_xsl" value="ref-builder.xsl"/>
 			<param name="in_result" value="prod0000011111.json"/>
-			<param name="in_log" value="ref-builder.log"/>
-			<param name="in_params" value="mode=aws_dev" />
+			<param name="in_log" value="ref-builder-${in_env}.log"/>
+			<param name="in_env" value="${in_env}"/>
+			<param name="in_params" value="mode=aws_${in_env}" />
+		</antcall>
+	</target>
+	
+	<!-- ng aws for DEV environment -->
+	<!-- ============================== -->
+	<target name="make-out-dev" depends="dist">
+		<antcall target="MakeEnv">
+			<param name="in_env" value="dev"/>
 		</antcall>
 	</target>
 	
 	<!-- ng aws for QA environment -->
 	<!-- ============================== -->
 	<target name="make-out-qa" depends="dist">
-		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
-		<copy file="${src}/version.json" tofile="${out}/version.json"/>
-		
-		<copy todir="${out}/data/images">
-				<fileset dir="${src}/images">
-					<exclude name="**/*.java"/>
-				</fileset>
-		</copy>
-			
-		<antcall target="transformation">
-			<param name="in_xml" value="prod0000011111.xml"/>
-			<param name="in_xsl" value="ref-builder.xsl"/>
-			<param name="in_result" value="prod0000011111.json"/>
-			<param name="in_log" value="ref-builder.log"/>
-			<param name="in_params" value="mode=aws_qa" />
+		<antcall target="MakeEnv">
+			<param name="in_env" value="qa"/>
 		</antcall>
 	</target>
 	
 	<!-- ng aws for PROD environment -->
 	<!-- ============================== -->
 	<target name="make-out-prod" depends="dist">
-		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
-		<copy file="${src}/version.json" tofile="${out}/version.json"/>
-		
-		<copy todir="${out}/data/images">
-				<fileset dir="${src}/images">
-					<exclude name="**/*.java"/>
-				</fileset>
-		</copy>
-			
-		<antcall target="transformation">
-			<param name="in_xml" value="prod0000011111.xml"/>
-			<param name="in_xsl" value="ref-builder.xsl"/>
-			<param name="in_result" value="prod0000011111.json"/>
-			<param name="in_log" value="ref-builder.log"/>
-			<param name="in_params" value="mode=aws_prod" />
+		<antcall target="MakeEnv">
+			<param name="in_env" value="prod"/>
 		</antcall>
 	</target>
+	
+	<!-- ng aws for PROD environment -->
+	<!-- ============================== -->
+	<target name="make-out-all" depends="dist ">
+		<antcall target="MakeEnv">
+			<param name="in_env" value="dev"/>
+		</antcall>
+		<antcall target="MakeEnv">
+			<param name="in_env" value="qa"/>
+		</antcall>
+		<antcall target="MakeEnv">
+			<param name="in_env" value="prod"/>
+		</antcall>
+	</target>
+	
 	
 	<!-- delete folders structure -->
 	<target name="clean-out" description="delete 'out' directory">
