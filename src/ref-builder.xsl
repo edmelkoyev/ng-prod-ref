@@ -180,7 +180,7 @@
         "_comment": "Resource: Practice Question",
         "id": "<xsl:value-of select="@identifier"/>",
         "type": "practice",
-        "url": "<xsl:value-of select="@qCardId"/>"
+        "url": "<xsl:call-template name="getPracriceId" />"
         }
     </xsl:template>
     
@@ -669,12 +669,50 @@
         </xsl:for-each>
     </xsl:template>
     
+    <xsl:template name="getPracriceId">
+       <xsl:choose>
+           <xsl:when test="$mode = 'aws_dev' and string(@qCardId_dev)">
+               <xsl:value-of select="@qCardId_dev"/>
+           </xsl:when>
+           <xsl:when test="$mode = 'aws_qa' and string(@qCardId_qa)">
+               <xsl:value-of select="@qCardId_qa"/>
+           </xsl:when>
+           <xsl:when test="$mode = 'aws_prod' and string(@qCardId)">
+               <xsl:value-of select="@qCardId"/>
+           </xsl:when>
+           <xsl:otherwise>undefined</xsl:otherwise>
+       </xsl:choose>
+    </xsl:template>
+    
+    <xsl:template name="getPracriceLauncher">
+        <xsl:variable name="qCardId"><xsl:call-template name="getPracriceId"/></xsl:variable>
+        
+        <xsl:choose>
+            <xsl:when test="$mode = 'aws_dev'">
+                <xsl:value-of select="concat('https://dev.api.wiley.com/was/v1/frontpage/questionView?qCardId=', $qCardId)"/>
+            </xsl:when>
+            <xsl:when test="$mode = 'aws_qa'">
+                <xsl:value-of select="concat('https://dev-qa.api.wiley.com/was/v1/frontpage/questionView?qCardId=', $qCardId)"/>
+            </xsl:when>
+            <xsl:when test="$mode = 'aws_prod'">
+                <xsl:value-of select="concat('https://api.wiley.com/was/v1/frontpage/questionView?qCardId=', $qCardId)"/>
+            </xsl:when>
+            <xsl:otherwise>
+                <xsl:value-of select="$qCardId"/>
+            </xsl:otherwise>
+        </xsl:choose>
+    </xsl:template>
+    
     <xsl:template match="ims:item[@type = 'practice']" mode="prod-toc">
+        <xsl:variable name="practiceLauncher">
+            <xsl:call-template name="getPracriceLauncher"/>
+        </xsl:variable>
+        
         <tr class="info">
             <td><xsl:call-template name="getResPosition"/></td>
             <td><xsl:value-of select="@identifier"/></td>
             <td><xsl:value-of select="@type"/></td>
-            <td><a href="https://dev-qa.api.wiley.com/was/v1/frontpage/questionView?qCardId={@qCardId}" target="_blank"><xsl:call-template name="getPracriceTitle"/></a></td>
+            <td><a href="{$practiceLauncher}" target="_blank"><xsl:call-template name="getPracriceTitle"/></a></td>
             <td>n/a</td>
             <td>n/a</td><!-- Metadata -->
             <td>n/a</td>

@@ -393,13 +393,13 @@
                 <item identifier="res0401t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0401t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 
-                <item identifier="res0101q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5"><title counter="3" mode="auto"/></item>
-                <item identifier="res0101q04" type="practice" qCardId="5bd29738-b349-4716-b7e0-37fb3334c4d6"><title counter="4" mode="auto"/></item>
-                <item identifier="res0101q05" type="practice" qCardId="1c377336-53f0-4a92-b96b-e9fbbe80694e"><title counter="5" mode="auto"/></item>
-                <item identifier="res0101q06" type="practice" qCardId="4bdf9a6c-b2b0-41fb-bc0c-36b7f7da20a9"><title counter="6" mode="auto"/></item>
-                <item identifier="res0101q07" type="practice" qCardId="6947c157-ede7-4f13-8e40-d8ce289377f8"><title counter="7" mode="auto"/></item>
+                <item identifier="res0101q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8" qCardId_qa="qa-qcard-001" qCardId_dev="dev-qcard-01"><title counter="1" mode="auto"/></item>
+                <item identifier="res0101q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08" qCardId_qa="qa-qcard-002" qCardId_dev="dev-qcard-02"><title counter="2" mode="auto"/></item>
+                <item identifier="res0101q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5" qCardId_qa="qa-qcard-003" qCardId_dev="dev-qcard-03"><title counter="3" mode="auto"/></item>
+                <item identifier="res0101q04" type="practice" qCardId="5bd29738-b349-4716-b7e0-37fb3334c4d6" qCardId_qa="qa-qcard-004"><title counter="4" mode="auto"/></item>
+                <item identifier="res0101q05" type="practice" qCardId="1c377336-53f0-4a92-b96b-e9fbbe80694e" qCardId_qa="qa-qcard-005"><title counter="5" mode="auto"/></item>
+                <item identifier="res0101q06" type="practice" qCardId="4bdf9a6c-b2b0-41fb-bc0c-36b7f7da20a9" qCardId_qa="qa-qcard-006"><title counter="6" mode="auto"/></item>
+                <item identifier="res0101q07" type="practice" qCardId="6947c157-ede7-4f13-8e40-d8ce289377f8" qCardId_qa="qa-qcard-007"><title counter="7" mode="auto"/></item>
             </item>
             
             <item identifier="chapResCollection04" type="chapResCollection">
