@@ -367,7 +367,7 @@
             <title prefix="Ch 4">NGCP Practice Questions</title>
             
             <item identifier="sec0401" type="section">
-                <title prefix="4-1">Pracice Questions, All Media Assets</title>
+                <title prefix="4-1">3 Practice Questions, All Media Assets</title>
                 
                 <item identifier="res0401hpc" type="homeComposite" identifierref="res00hpc_dummy">
                     <title>Homepage Composite</title>
@@ -393,14 +393,32 @@
                 <item identifier="res0401t09ma01" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
                 <item identifier="res0401t09ma02" type="mediaAsset" mType="9" bRef="bkt01" thumbnail="no"><title counter="2" mode="auto"/></item>
                 
-                <item identifier="res0101q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8" qCardId_qa="qa-qcard-001" qCardId_dev="dev-qcard-01"><title counter="1" mode="auto"/></item>
-                <item identifier="res0101q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08" qCardId_qa="qa-qcard-002" qCardId_dev="dev-qcard-02"><title counter="2" mode="auto"/></item>
-                <item identifier="res0101q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5" qCardId_qa="qa-qcard-003" qCardId_dev="dev-qcard-03"><title counter="3" mode="auto"/></item>
-                <item identifier="res0101q04" type="practice" qCardId="5bd29738-b349-4716-b7e0-37fb3334c4d6" qCardId_qa="qa-qcard-004"><title counter="4" mode="auto"/></item>
-                <item identifier="res0101q05" type="practice" qCardId="1c377336-53f0-4a92-b96b-e9fbbe80694e" qCardId_qa="qa-qcard-005"><title counter="5" mode="auto"/></item>
-                <item identifier="res0101q06" type="practice" qCardId="4bdf9a6c-b2b0-41fb-bc0c-36b7f7da20a9" qCardId_qa="qa-qcard-006"><title counter="6" mode="auto"/></item>
-                <item identifier="res0101q07" type="practice" qCardId="6947c157-ede7-4f13-8e40-d8ce289377f8" qCardId_qa="qa-qcard-007"><title counter="7" mode="auto"/></item>
+                <item identifier="res0401q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8" qCardId_qa="8c333ce5-aa14-494a-b8d4-f4c8176bd1e1" qCardId_dev="e649151a-1ca9-4346-a364-540383da5e8a"><title counter="1" mode="auto"/></item>
+                <item identifier="res0401q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08" qCardId_qa="3424d032-d44e-4e58-ac4a-0be7dc173762" qCardId_dev="e85a087e-9fde-4aa1-a87d-87a354153999"><title counter="2" mode="auto"/></item>
+                <item identifier="res0401q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5" qCardId_qa="e4b7c6d4-2216-4920-a39c-b7164934ca05" qCardId_dev="8c06ad2d-7598-4951-b402-c5e95c4a28ea"><title counter="3" mode="auto"/></item>
             </item>
+            
+            <item identifier="sec0402" type="section">
+                <title prefix="4-2">7 Practice Questions, 1 Media Asset</title>
+                
+                <item identifier="res0402hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0402epub" type="onlineReading" url="https://bc.vitalsource.com/books/9781119308843?custom_book_location=/epubcfi/6/18!/4/2@0:0">
+                    <title mode="auto"/>
+                </item>
+                <item identifier="res0402t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto"/></item>
+                
+                <item identifier="res0402q01" type="practice" qCardId="4d422c46-be27-48b0-9a27-1b582ae847b8" qCardId_qa="01254f33-e78f-4943-aafe-626febf39a02" qCardId_dev="e649151a-1ca9-4346-a364-540383da5e8a"><title counter="1" mode="auto"/></item>
+                <item identifier="res0402q02" type="practice" qCardId="0bb719ed-0004-49b9-8f79-837be50e4d08" qCardId_qa="fc1494c8-e755-47ea-bb5e-2dc54e91390c" qCardId_dev="e85a087e-9fde-4aa1-a87d-87a354153999"><title counter="2" mode="auto"/></item>
+                <item identifier="res0402q03" type="practice" qCardId="a7008ba2-5e45-407d-9d1d-9dacf290b3a5" qCardId_qa="1e4ea379-39b0-42fd-b98e-8377fee95405" qCardId_dev="8c06ad2d-7598-4951-b402-c5e95c4a28ea"><title counter="3" mode="auto"/></item>
+                <item identifier="res0402q04" type="practice" qCardId="5bd29738-b349-4716-b7e0-37fb3334c4d6" qCardId_qa="e3fff8d0-7993-4153-9e6e-6abb68496b41" qCardId_dev="57f38362-b7d8-4cdc-9c97-06b2f58f04f2"><title counter="4" mode="auto"/></item>
+                <item identifier="res0402q05" type="practice" qCardId="1c377336-53f0-4a92-b96b-e9fbbe80694e" qCardId_qa="b7bded18-3232-4e9b-b1c5-a5dd313b1ec4" qCardId_dev="c3d6d7c8-d309-4774-ad54-9fc4fd5c402f"><title counter="5" mode="auto"/></item>
+                <item identifier="res0402q06" type="practice" qCardId="4bdf9a6c-b2b0-41fb-bc0c-36b7f7da20a9" qCardId_qa="03fdb41e-1476-4541-a06d-f99cd832c910" qCardId_dev="3480f3fa-8402-469a-8671-4dafb98957d7"><title counter="6" mode="auto"/></item>
+                <item identifier="res0402q07" type="practice" qCardId="6947c157-ede7-4f13-8e40-d8ce289377f8" qCardId_qa="79197023-8292-48a4-8c0e-22191a5f1351" qCardId_dev="86a46803-cbe3-400b-bcc1-c9dd3f92fbd5"><title counter="7" mode="auto"/></item>
+            </item>
+            
+            
             
             <item identifier="chapResCollection04" type="chapResCollection">
                 <title prefix="Ch 4">Chapter Level Resources</title>
