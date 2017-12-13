@@ -13,9 +13,9 @@
     <xsl:param name="mode">aws</xsl:param><!-- relative | aws | aws_dev | aws_qa | aws_prod -->
     
     <xsl:param name="awsCloud">https://ng-wp-dev.wiley.com/ngcpp/ngcp_catalog/content/prod0000011111</xsl:param>
-    <xsl:param name="awsCloud_dev">https://drbuc2jl8158i.cloudfront.net/canvas/prod0000011111</xsl:param>
-    <xsl:param name="awsCloud_qa"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
-    <xsl:param name="awsCloud_prod"><xsl:value-of select="$awsCloud_dev"/></xsl:param>
+    <xsl:param name="awsCloud_dev">https://wpng-dev.aws.wiley.com/ngref/content/prod0000011111</xsl:param>
+    <xsl:param name="awsCloud_qa">https://wpng-qa.aws.wiley.com/ngref/content/prod0000011111</xsl:param>
+    <xsl:param name="awsCloud_prod">https://education.wiley.com/ngref/content/prod0000011111</xsl:param>
 
     <xsl:template match="/">
         {
