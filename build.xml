@@ -4,7 +4,7 @@
 	<description>This script file creates Content package</description>
 	
 	<!-- set global properties for this build -->
-	<property name="coursename" value="halliday8019"/>
+	<property name="coursename" value="prod0000011111"/>
 	<property name="bin" location="bin"/>
 	<property name="src" location="src"/>
 	<property name="out" location="out"/>
@@ -14,22 +14,21 @@
 	
 	<path id="saxon.path">
 		<pathelement location="${saxon_home}/saxon9he.jar"/>
-		<!--<pathelement location="${saxon_home}/saxon9-sql.jar"/>-->
 	</path>
-	<pathconvert  property="saxon.path.crossplatform" refid="saxon.path"/>
-	
+	<pathconvert property="saxon.path.crossplatform" refid="saxon.path"/>
 	
 	<target name="init" description="Create the time stamp">
 		<tstamp/>
 	</target>
-	
+
+
 	<target name="dist" depends="init" description="create folders for build process">
 		<mkdir dir="${log}"/>
 		<mkdir dir="${out}"/>
 		<mkdir dir="${dist}"/>
 	</target>
-	
-	
+
+
 	<target name="transformation">
 		<!-- in_xml -->
 		<!-- in_xsl -->
@@ -37,7 +36,7 @@
 		<!-- in_log -->
 		
 		<!-- imsmanifest -->
-		<exec dir="${src}" executable="java.exe" output="${log}/${in_log}">
+		<exec dir="${src}" executable="java" output="${log}/${in_log}">
 			<arg line="-cp ${saxon.path.crossplatform} net.sf.saxon.Transform -t"/>
 			<!-- source -->
 			<arg line=" -s:${in_xml}"/>
@@ -50,6 +49,7 @@
 		</exec>
 	</target>
 
+
 	<target name="transformation4env">
 		<!-- in_xml -->
 		<!-- in_xsl -->
@@ -58,7 +58,7 @@
 		<!-- in_env -->
 		
 		<!-- imsmanifest -->
-		<exec dir="${src}" executable="java.exe" output="${log}/${in_log}">
+		<exec dir="${src}" executable="java" output="${log}/${in_log}">
 			<arg line="-cp ${saxon.path.crossplatform} net.sf.saxon.Transform -t"/>
 			<!-- source -->
 			<arg line=" -s:${in_xml}"/>
@@ -70,33 +70,10 @@
 			<arg line=" ${in_params}"/>
 		</exec>
 	</target>
-	
-	<!-- /////////////// external calls /////////////// -->
-	
-	<target name="make-out" depends="dist">
-	
-		<copy file="${src}/cover.png" tofile="${out}/cover.png"/>
-		<copy file="${src}/version.json" tofile="${out}/version.json"/>
-		
-		<copy todir="${out}/data/images">
-				<fileset dir="${src}/images">
-					<exclude name="**/*.java"/>
-				</fileset>
-		</copy>
-			
-		<antcall target="transformation">
-			<param name="in_xml" value="prod0000011111.xml"/>
-			<param name="in_xsl" value="ref-builder.xsl"/>
-			<param name="in_result" value="prod0000011111.json"/>
-			<param name="in_log" value="ref-builder.log"/>
-			<param name="in_params" value="mode=aws" />
-		</antcall>
-	</target>
-	
-	<!-- =========================== -->
-	
-	<target name="MakeEnv" depends="dist">
-		<!-- in_env -->
+
+
+  <target name="MakeEnv" depends="dist">
+    <!-- in_env -->
 		
 		<mkdir dir="${out}/${in_env}"/>
 		<copy file="${src}/cover.png" tofile="${out}/${in_env}/cover.png"/>
@@ -115,8 +92,9 @@
 			<param name="in_log" value="ref-builder-${in_env}.log"/>
 			<param name="in_env" value="${in_env}"/>
 			<param name="in_params" value="mode=aws_${in_env}" />
-		</antcall>
+    </antcall>
 	</target>
+	<!-- /////////////// external calls /////////////// -->	
 	
 	<!-- ng aws for DEV environment -->
 	<!-- ============================== -->
@@ -144,7 +122,7 @@
 	
 	<!-- ng aws for PROD environment -->
 	<!-- ============================== -->
-	<target name="make-out-all" depends="dist ">
+	<target name="make-out" depends="dist">
 		<antcall target="MakeEnv">
 			<param name="in_env" value="dev"/>
 		</antcall>
@@ -154,10 +132,10 @@
 		<antcall target="MakeEnv">
 			<param name="in_env" value="prod"/>
 		</antcall>
-	</target>
+  </target>
 	
 	
-	<!-- delete folders structure -->
+  <!-- delete folders structure -->
 	<target name="clean-out" description="delete 'out' directory">
 		<delete dir="${log}"/>
 		<delete dir="${out}"/>
