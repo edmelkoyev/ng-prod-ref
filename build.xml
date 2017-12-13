@@ -9,7 +9,6 @@
 	<property name="src" location="src"/>
 	<property name="out" location="out"/>
 	<property name="log" location="log"/>
-	<property name="dist" location="dist"/>
 	<property name="saxon_home" location="bin/saxonhe9-4-0-1J"/>
 	
 	<path id="saxon.path">
@@ -25,7 +24,6 @@
 	<target name="dist" depends="init" description="create folders for build process">
 		<mkdir dir="${log}"/>
 		<mkdir dir="${out}"/>
-		<mkdir dir="${dist}"/>
 	</target>
 
 
@@ -139,7 +137,6 @@
 	<target name="clean-out" description="delete 'out' directory">
 		<delete dir="${log}"/>
 		<delete dir="${out}"/>
-		<delete dir="${dist}"/>
 	</target>
 	
 </project>
