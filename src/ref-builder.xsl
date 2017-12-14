@@ -203,6 +203,7 @@
         <xsl:variable name="rUrl"><xsl:call-template name="getResourceUrl"/></xsl:variable>
         
         <xsl:choose>
+            <xsl:when test="string(@url)"><xsl:value-of select="@url"/></xsl:when>
             <xsl:when test="$mode = 'aws'"><xsl:value-of select="concat($awsCloud, '/', $rUrl)"/></xsl:when>
             <xsl:when test="$mode = 'aws_dev'"><xsl:value-of select="concat($awsCloud_dev, '/', $rUrl)"/></xsl:when>
             <xsl:when test="$mode = 'aws_qa'"><xsl:value-of select="concat($awsCloud_qa, '/', $rUrl)"/></xsl:when>

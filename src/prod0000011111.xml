@@ -141,7 +141,6 @@
                 <item identifier="res0202t01ma08" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="8">hexamethylenetriperoxidediaminpolychlorid (solid word)</title></item>
                 <item identifier="res0202t01ma09" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="10">hexamethylen&#173;etriperoxide&#173;diamin&#173;polychlorid (word with shy hyphen)</title></item>
                 <item identifier="res0202t01ma10" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title counter="9">hexamethylen-triperoxidant-diaminalit</title></item>
-                <item identifier="res0202t01ma11" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="1"><title counter="10"></title></item>
                 <item identifier="res0202t01ma12" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_sm" importance="2"><title counter="11">Resource with small picture(checking stretching)</title></item>
                 <item identifier="res0202t01ma13" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto_lg" importance="1"><title counter="12">Resource with big picture(checking stretching)</title></item>
             </item>
@@ -281,12 +280,31 @@
                 <item identifier="res0209t01ma20" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" importance="2"><title>11. South</title></item>
             </item>
             
+            <item identifier="sec0210" type="section">
+                <title>No Prefix Section with External Resources</title>
+                
+                <item identifier="res0210hpc" type="homeComposite" identifierref="res00hpc_dummy">
+                    <title>Homepage Composite</title>
+                </item>
+                <item identifier="res0210t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="1" url="http://www.bbc.com"><title>HTTP: bbc.com</title></item>
+                <item identifier="res0210t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="1" url="http://www.wiley.com/WileyCDA/"><title>HTTP: wiley.com</title></item>
+                <item identifier="res0210t06ma03" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="1" url="http://www.dw.com/en/brexit-optimism-dampened-at-eu-summit-in-brussels/av-41799540"><title>HTTP: Brexit optimism dampened at EU summit in Brussels</title></item> 
+                <item identifier="res0210t06ma04" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="1" url="https://www.nytimes.com/"><title>HTTPS: nytimes.com</title></item>
+                <item identifier="res0210t06ma05" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" importance="1" url="https://www.politico.com/story/2017/12/13/trump-alabama-doug-jones-moore-295476?lo=ap_c1"><title>HTTPS: Trump's unexpected reaction</title></item>                
+            </item>
+            
             
             <item identifier="chapResCollection02" type="chapResCollection">
                 <title prefix="Ch 2">Chapter Level Resources</title>
                 <item identifier="chapres02t01ma01" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto"><title counter="1" mode="auto_chap"/></item>
                 <item identifier="chapres02t01ma02" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="1"><title counter="2" mode="auto_chap"/></item>
                 <item identifier="chapres02t01ma03" type="mediaAsset" mType="1" bRef="bkt01" thumbnail="auto" audience="2"><title counter="3" mode="auto_chap"/></item>
+                
+                <item identifier="chapres02t06ma01" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" audience="1" url="http://edition.cnn.com/"><title>HTTP: cnn.com</title></item>
+                <item identifier="chapres02t06ma02" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" audience="1" url="http://www.foxnews.com/world.html"><title>HTTP: foxnews.com</title></item>
+                <item identifier="chapres02t06ma03" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" audience="1" url="http://www.britishmuseum.org"><title>HTTP: britishmuseum.org</title></item>
+                <item identifier="chapres02t06ma04" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" audience="1" url="https://www.facebook.com/chicagobulls/"><title>HTTPS: facebook.com/chicagobulls/</title></item>
+                <item identifier="chapres02t06ma05" type="mediaAsset" mType="6" bRef="bkt01" thumbnail="auto" audience="1" url="https://www.amazon.com"><title>HTTPS: amazon.com</title></item>
             </item>
         </item>
         
